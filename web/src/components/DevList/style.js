@@ -21,6 +21,7 @@ export const Header = styled.header`
 
 export const Avatar = styled.img`
   border-radius: 50%;
+  flex-shrink: 0;
   height: 54px;
   width: 54px;
 `;
