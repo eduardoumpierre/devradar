@@ -8,7 +8,7 @@ const DevList = ({ items }) => (
         <s.Header>
           <s.Avatar src={item.avatar_url} alt={item.name} />
           <s.Info>
-            <s.Name>{item.name}</s.Name>
+            <s.Name>{item.name || item.github_username}</s.Name>
             <s.Techs>{item.techs.join(', ')}</s.Techs>
           </s.Info>
         </s.Header>
